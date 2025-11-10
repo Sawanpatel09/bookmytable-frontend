@@ -1,0 +1,41 @@
+@import "../../styles/variables.css";
+
+.contact {
+  background-color: var(--secondary-bg);
+  color: var(--text-light);
+  text-align: center;
+  padding: 5rem 2rem;
+  font-family: var(--font-family);
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: var(--primary-bg);
+  color: var(--text-light);
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+.contact-form button {
+  background: var(--accent-gradient);
+  border: none;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: var(--accent-gold);
+  color: var(--primary-bg);
+}

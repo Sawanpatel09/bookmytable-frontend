@@ -1,0 +1,10 @@
+:root {
+  --primary-bg: #0b132b;
+  --secondary-bg: #1c2331;
+  --accent-gradient: linear-gradient(90deg, #2a2a72, #009ffd);
+  --accent-gold: gold;
+  --accent-red: crimson;
+  --text-light: #fff;
+  --text-muted: #ccc;
+  --font-family: "Poppins", sans-serif;
+}
