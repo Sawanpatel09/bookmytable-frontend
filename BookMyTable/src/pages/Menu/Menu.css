@@ -1,0 +1,29 @@
+@import "../../styles/variables.css";
+
+.menu {
+  background-color: var(--secondary-bg);
+  color: var(--text-light);
+  text-align: center;
+  padding: 4rem 2rem;
+  font-family: var(--font-family);
+}
+
+.menu-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.menu-item {
+  background-color: var(--primary-bg);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--accent-red);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+  background: var(--accent-gradient);
+}
